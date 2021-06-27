@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "reactpppspfxcontrols-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactpppspfxcontrols/ReactpppspfxcontrolsWebPart.js",
+          "manifest": "./src/webparts/reactpppspfxcontrols/ReactpppspfxcontrolsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactpppspfxcontrolsWebPartStrings": "lib/webparts/reactpppspfxcontrols/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
