@@ -1,7 +1,8 @@
 define([], function() {
   return {
-    "PropertyPaneDescription": "Description",
-    "BasicGroupName": "Group Name",
+    "PropertyPaneDescription": "PPP demo with PnP SPFx-Controls",
+    "BasicGroupName": "Built-in Controls",
+    "PnPSPFxControlsGroup": "PnP SPFx Controls",
     "DescriptionFieldLabel": "Description Field"
   }
 });

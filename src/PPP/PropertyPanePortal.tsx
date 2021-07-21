@@ -20,8 +20,7 @@ export const PropertyPanePortal: React.FunctionComponent<IPropertyPanePortalProp
             && (child.props["data-Property"])
             && (props.propertyPaneHosts.hosts[child.props["data-Property"]])
             && (props.propertyPaneHosts.hosts[child.props["data-Property"]] instanceof HTMLElement)) {
-                // portals.push(ReactDOM.createPortal(child, props.propertyPaneHosts.hosts[child.props["data-Property"]]));
-                portals.push(child);
+                portals.push(ReactDOM.createPortal(child, props.propertyPaneHosts.hosts[child.props["data-Property"]]));
             }
     });
 
