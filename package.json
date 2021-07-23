@@ -9,11 +9,11 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "@microsoft/sp-core-library": "1.12.1",
-    "@microsoft/sp-lodash-subset": "1.12.1",
-    "@microsoft/sp-office-ui-fabric-core": "1.12.1",
-    "@microsoft/sp-property-pane": "1.12.1",
-    "@microsoft/sp-webpart-base": "1.12.1",
+    "@microsoft/sp-core-library": "1.13.0-beta.13",
+    "@microsoft/sp-lodash-subset": "1.13.0-beta.13",
+    "@microsoft/sp-office-ui-fabric-core": "1.13.0-beta.13",
+    "@microsoft/sp-property-pane": "1.13.0-beta.13",
+    "@microsoft/sp-webpart-base": "1.13.0-beta.13",
     "@pnp/spfx-controls-react": "3.2.1",
     "office-ui-fabric-react": "7.156.0",
     "react": "16.9.0",
