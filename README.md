@@ -51,7 +51,7 @@ Either use the included SharePoint sppkg package or:
 
 ## Features
 
-Check out [the related blog post](https://blog.pathtosharepoint.com/2021/08/02/introducing-the-property-pane-portal-3/) for details.
+Check out [the related blog post](https://blog.pathtosharepoint.com/2021/08/05/introducing-the-property-pane-portal-3/) for details.
 
 ## References
 
