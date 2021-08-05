@@ -1,6 +1,6 @@
 {
   "name": "react-ppp-sp-fx-controls",
-  "version": "0.0.1",
+  "version": "1.1.0",
   "private": true,
   "main": "lib/index.js",
   "scripts": {
@@ -20,15 +20,14 @@
     "react-dom": "16.9.0"
   },
   "devDependencies": {
+    "@microsoft/rush-stack-compiler-3.7": "0.2.3",
+    "@microsoft/sp-build-web": "1.13.0-beta.15",
+    "@microsoft/sp-module-interfaces": "1.13.0-beta.15",
+    "@microsoft/sp-tslint-rules": "1.13.0-beta.15",
     "@types/react": "16.9.36",
     "@types/react-dom": "16.9.8",
-    "@microsoft/sp-build-web": "1.12.1",
-    "@microsoft/sp-tslint-rules": "1.12.1",
-    "@microsoft/sp-module-interfaces": "1.12.1",
-    "@microsoft/sp-webpart-workbench": "1.12.1",
-    "@microsoft/rush-stack-compiler-3.7": "0.2.3",
-    "gulp": "~4.0.2",
+    "@types/webpack-env": "1.13.1",
     "ajv": "~5.2.2",
-    "@types/webpack-env": "1.13.1"
+    "gulp": "~4.0.2"
   }
 }
